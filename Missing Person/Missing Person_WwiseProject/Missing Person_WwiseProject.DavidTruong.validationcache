@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="13787385" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="12726896" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="12806958" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3389865919" DateHigh="30591257"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="12977061" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="12907021" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="13037110" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Effects\Default Work Unit.wwu" DateLow="13157190" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Effects\Factory Effects.wwu" DateLow="13227225" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Events\Default Work Unit.wwu" DateLow="13107154" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="13627283" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="13647292" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="13707332" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Missing Person_WwiseProject.wproj" DateLow="12546780" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="13877447" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="13937505" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Presets\Default Work Unit.wwu" DateLow="13987518" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Queries\Default Work Unit.wwu" DateLow="14037550" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Queries\Factory Queries.wwu" DateLow="14097590" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3389945973" DateHigh="30591257"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="14147625" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\States\Default Work Unit.wwu" DateLow="14167639" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Switches\Default Work Unit.wwu" DateLow="14217674" DateHigh="30591254"/>
+	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person\Missing Person_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="13827407" DateHigh="30591254"/>
 	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person_WwiseIntegrationTemp\Missing Person_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3750366816" DateHigh="30591253"/>
 	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person_WwiseIntegrationTemp\Missing Person_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3751297430" DateHigh="30591253"/>
 	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person_WwiseIntegrationTemp\Missing Person_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3750977229" DateHigh="30591253"/>
