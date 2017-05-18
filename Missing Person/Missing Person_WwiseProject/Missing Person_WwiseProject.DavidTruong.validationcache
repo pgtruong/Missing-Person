@@ -48,4 +48,30 @@
 	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person_WwiseIntegrationTemp\Missing Person_WwiseProject\States\Default Work Unit.wwu" DateLow="3750697038" DateHigh="30591253"/>
 	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person_WwiseIntegrationTemp\Missing Person_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3750226735" DateHigh="30591253"/>
 	<ValidationCacheItem File="C:\Users\DavidTruong\Desktop\Missing-Person\Missing Person_WwiseIntegrationTemp\Missing Person_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3751427523" DateHigh="30591253"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3793470428" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Actor-Mixer Hierarchy\Footsteps Unit.wwu" DateLow="250535578" DateHigh="30593056"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3793640534" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3793635536" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3793640534" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3793640534" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3793640534" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3793680565" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3793680565" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Effects\Factory Effects.wwu" DateLow="3793715589" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Events\Default Work Unit.wwu" DateLow="3000610559" DateHigh="30593057"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3793680565" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="4291395097" DateHigh="30593043"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3793720592" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Missing Person_WwiseProject.DavidTruong.wsettings" DateLow="2974198479" DateHigh="30593048"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Missing Person_WwiseProject.wproj" DateLow="3793875696" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3793765620" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3793765620" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3793905718" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3793910716" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Queries\Factory Queries.wwu" DateLow="3793925740" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3000660599" DateHigh="30593057"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3793910716" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\States\Default Work Unit.wwu" DateLow="3793960751" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3793960751" DateHigh="30592031"/>
+	<ValidationCacheItem File="D:\Github Projects\Missing-Person\Missing Person\Missing Person_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3796075955" DateHigh="30592031"/>
 </ValidationCache>
