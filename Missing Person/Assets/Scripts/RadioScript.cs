@@ -5,7 +5,7 @@ using UnityEngine;
 public class RadioScript : MonoBehaviour {
 
 	void Start () {
-        AkSoundEngine.PostEvent("Static", this.gameObject);
+        AkSoundEngine.PostEvent("StartStatic", this.gameObject);
 	}
 
 }

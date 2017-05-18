@@ -14,17 +14,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Static" ID="{2F714A63-6D29-458D-A5D7-823460148993}">
+				<Folder Name="Radio" ID="{C35D2A54-55B3-4785-B2F3-314ED832F22B}" ShortID="730494748">
 					<ChildrenList>
-						<Action Name="Play" ID="{88CB7EB6-FC37-499F-A192-3939B3865748}" ShortID="57983987" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{1CB31CE8-8431-49C0-B6BC-41A90484D44E}" Global="false">
-									<ObjectRef Name="RadioStatic" ID="{4E781A72-660D-4210-8572-24DF223DB46C}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
-								</Element>
-							</ElementList>
-						</Action>
+						<Event Name="StartStatic" ID="{2F714A63-6D29-458D-A5D7-823460148993}">
+							<ChildrenList>
+								<Action Name="Play" ID="{88CB7EB6-FC37-499F-A192-3939B3865748}" ShortID="57983987" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1CB31CE8-8431-49C0-B6BC-41A90484D44E}" Global="false">
+											<ObjectRef Name="RadioStatic" ID="{4E781A72-660D-4210-8572-24DF223DB46C}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopStatic" ID="{AF9CEAC9-781F-466D-8253-AD6F94C3B3D2}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{128D5CB9-F9C2-4018-A10C-6665E6532817}" ShortID="920689542" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{30D9B4EA-304D-4B84-98DE-DB22829879AE}" Global="true">
+											<ObjectRef Name="RadioStatic" ID="{4E781A72-660D-4210-8572-24DF223DB46C}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
