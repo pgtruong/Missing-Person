@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{E9C3BCD6-0408-459F-97FF-FEE8F1952A01}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Footstep" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Static" ID="{2F714A63-6D29-458D-A5D7-823460148993}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

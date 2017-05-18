@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Static" ID="{2F714A63-6D29-458D-A5D7-823460148993}">
+					<ChildrenList>
+						<Action Name="Play" ID="{88CB7EB6-FC37-499F-A192-3939B3865748}" ShortID="57983987" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1CB31CE8-8431-49C0-B6BC-41A90484D44E}" Global="false">
+									<ObjectRef Name="RadioStatic" ID="{4E781A72-660D-4210-8572-24DF223DB46C}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
