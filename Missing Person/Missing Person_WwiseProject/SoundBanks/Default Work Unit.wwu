@@ -5,9 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{E9C3BCD6-0408-459F-97FF-FEE8F1952A01}">
 					<ObjectInclusionList>
+						<ObjectRef Name="StartPiano" ID="{E6815CCC-3986-4061-927D-255C0B81218E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopRain" ID="{A8D09E69-763A-429B-9A9F-ECCD6AD1EB3E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopPiano" ID="{BF165649-0A7C-42A0-8B9B-B2C9B3E19923}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartStatic" ID="{2F714A63-6D29-458D-A5D7-823460148993}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopStatic" ID="{AF9CEAC9-781F-466D-8253-AD6F94C3B3D2}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartRain" ID="{9709E87B-5C89-480D-A905-C9ACF593B8C1}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

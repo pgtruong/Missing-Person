@@ -40,6 +40,65 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Piano" ID="{AC02A7BD-F457-4FAD-ADE1-287020DBE786}" ShortID="163491595">
+					<ChildrenList>
+						<Event Name="StartPiano" ID="{E6815CCC-3986-4061-927D-255C0B81218E}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B9344BE5-5F55-449A-8FC2-3FFAC1365FDF}" ShortID="1025469803" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{25FB6F1F-D3DF-4BCB-9C31-CC236C6E2DBA}" Global="false">
+											<ObjectRef Name="CreepyPiano" ID="{56155A7C-6E28-4E19-9CD2-4E0F126C8371}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopPiano" ID="{BF165649-0A7C-42A0-8B9B-B2C9B3E19923}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{739CEC78-F543-4230-BA41-A9A00081FDD1}" ShortID="664713370" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{54939817-16A3-4041-8395-65A970412D1E}" Global="true">
+											<ObjectRef Name="CreepyPiano" ID="{56155A7C-6E28-4E19-9CD2-4E0F126C8371}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{1A3265D5-E7F1-4174-A0D9-E24027731018}" ShortID="979037773">
+					<ChildrenList>
+						<Folder Name="Rain" ID="{44678FB0-1DB1-4BB7-B270-EC76C8A0ACFF}" ShortID="198688782">
+							<ChildrenList>
+								<Event Name="StartRain" ID="{9709E87B-5C89-480D-A905-C9ACF593B8C1}">
+									<ChildrenList>
+										<Action Name="Play" ID="{5520723A-BF42-4A0E-A61A-EF2D38B2BD77}" ShortID="390323920" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{D65FDD1B-B63C-49E9-B5C2-337631B35E99}" Global="false">
+													<ObjectRef Name="Rain" ID="{17BB542C-110D-4C3F-8E53-96F218B52EF2}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="StopRain" ID="{A8D09E69-763A-429B-9A9F-ECCD6AD1EB3E}">
+									<ChildrenList>
+										<Action Name="Stop" ID="{3A5306A7-0227-41EC-95C0-946D32238DB3}" ShortID="937356722" Type="Stop" Scope="One" Global="false">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ElementList>
+												<Element ID="{236D0DBF-0837-428F-842F-4211D66CA72B}" Global="false">
+													<ObjectRef Name="Rain" ID="{17BB542C-110D-4C3F-8E53-96F218B52EF2}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

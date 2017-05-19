@@ -81,6 +81,33 @@
 						<ActiveSource Name="RadioStatic" ID="{9F263A9A-AB5D-4BDB-8415-E39B0D7D29C0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Rain" ID="{17BB542C-110D-4C3F-8E53-96F218B52EF2}" ShortID="293745455" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Rain" ID="{97A7CE2E-3F43-4433-9938-6F95A20D15C2}" ShortID="379384524">
+							<Language>SFX</Language>
+							<AudioFile>Rain.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Rain" ID="{97A7CE2E-3F43-4433-9938-6F95A20D15C2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

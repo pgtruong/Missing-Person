@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DoorOpener : MonoBehaviour {
 
@@ -10,12 +11,13 @@ public class DoorOpener : MonoBehaviour {
     /// Bool that represents whether or not the door is open.
     /// </summary>
     [SerializeField] private bool isOpen = false;
+
     public bool IsDoorOpen
     {
         get { return this.isOpen; }
         set { this.isOpen = value; }
     }
-
+    public Text text;
     float rotation = -90;
     public bool playerCanOpen = false;
     public float doorSpeed = 200f;
@@ -52,6 +54,11 @@ public class DoorOpener : MonoBehaviour {
         if (other.CompareTag("Player"))
         {
             playerCanOpen = true;
+            text.enabled = true;
+            if (isOpen)
+                text.text = "Press E to close door.";
+            else
+                text.text = "Press E to open door.";
         }
     }
 
@@ -60,6 +67,7 @@ public class DoorOpener : MonoBehaviour {
         if (other.CompareTag("Player"))
         {
             playerCanOpen = false;
+            text.enabled = false;
         }
     }
 
@@ -70,6 +78,7 @@ public class DoorOpener : MonoBehaviour {
     /// <returns>Makes the door rotate by the rotate param.</returns>
     IEnumerator rotateDoor(float rotate)
     {
+        text.enabled = false;
         Vector3 target = new Vector3(DoorFrame.transform.localRotation.x, DoorFrame.transform.localRotation.y, rotate);
         rotate = (rotate < 0) ? rotate + 360 : 0;
         if (!isOpen)

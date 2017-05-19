@@ -27,6 +27,13 @@ public class PickUp : MonoBehaviour {
             {
                 AkSoundEngine.PostEvent(stop, this.gameObject);
             }
+            text.enabled = false;
+            //temp
+            if (gameObject.name == "Sphere")
+            {
+                text.text = "You win! Press Q to quit.";
+                text.enabled = true;
+            }
             Destroy(this.gameObject);
         }
     }
