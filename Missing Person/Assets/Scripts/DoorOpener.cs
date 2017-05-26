@@ -18,7 +18,7 @@ public class DoorOpener : MonoBehaviour {
         set { this.isOpen = value; }
     }
     public Text text;
-    float rotation = -90;
+    float rotation = -60;
     public bool playerCanOpen = false;
     public float doorSpeed = 200f;
     GameObject DoorFrame;
