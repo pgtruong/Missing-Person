@@ -9,9 +9,17 @@
 						<ObjectRef Name="Footstep" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopRain" ID="{A8D09E69-763A-429B-9A9F-ECCD6AD1EB3E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopPiano" ID="{BF165649-0A7C-42A0-8B9B-B2C9B3E19923}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayTape2" ID="{0A2F26B4-D6D1-44CE-B479-54420239A357}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartStatic" ID="{2F714A63-6D29-458D-A5D7-823460148993}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartCreepyLoop" ID="{18A27151-6F21-4651-9FEE-43D9CA6BF487}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopStatic" ID="{AF9CEAC9-781F-466D-8253-AD6F94C3B3D2}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayTape3" ID="{D4C4CDD8-1625-47D4-BB47-658ABF8244A0}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartRain" ID="{9709E87B-5C89-480D-A905-C9ACF593B8C1}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayBarking" ID="{554D10CE-2DCB-4946-A12C-75924E9B43A9}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayTape1" ID="{E60341E1-5F21-4A62-B06B-EF9899C753C1}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopBarking" ID="{0E4F247A-9EE1-4B9D-B0A1-CED895405343}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FadeToStinger" ID="{8CD60771-4977-4CC1-AE6F-80B2E29D23D4}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Roar" ID="{899554B4-0F9D-4E8A-8BA8-BA6ACB3E0BA3}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

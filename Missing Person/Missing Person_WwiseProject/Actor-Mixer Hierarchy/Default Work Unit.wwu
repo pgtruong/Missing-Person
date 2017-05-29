@@ -346,6 +346,28 @@
 										<ActiveSource Name="Wind_01" ID="{3F81B594-9906-4B51-AFC1-5D31D3378CDC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="DogBarking" ID="{6C12B7FA-E896-4D27-85D0-D883CC4D421E}" ShortID="737752121" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DogBarking" ID="{839AE894-14E8-487A-9CCA-2847A0E4342F}" ShortID="928586735">
+											<Language>SFX</Language>
+											<AudioFile>DogBarking.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DogBarking" ID="{839AE894-14E8-487A-9CCA-2847A0E4342F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Devices" ID="{F0BA5EAA-7EA5-4B6C-9F53-3AE87A8E4D61}" ShortID="550551974">
@@ -468,82 +490,6 @@
 						</Folder>
 						<Folder Name="Door" ID="{785D0007-E311-4680-9E85-1A079A0160A4}" ShortID="535155148">
 							<ChildrenList>
-								<Sound Name="Door_01_Creak" ID="{327E4D30-752B-4A3F-9BD2-8154FA1E5C28}" ShortID="931529849" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_01_Creak" ID="{BD4D0245-9F07-4647-A1F6-77DF6BDF0E0A}" ShortID="647378029">
-											<Language>SFX</Language>
-											<AudioFile>Sounds\Door\Door_01_Creak.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_01_Creak" ID="{BD4D0245-9F07-4647-A1F6-77DF6BDF0E0A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Door_02_Hinge_and_Creak" ID="{D661B3CC-EB0E-4F85-91D8-97E181EE15CB}" ShortID="589211381" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_02_Hinge_and_Creak" ID="{629A47C9-1828-4998-9CF9-AEE2FE2C911C}" ShortID="624687065">
-											<Language>SFX</Language>
-											<AudioFile>Sounds\Door\Door_02_Hinge_and_Creak.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_02_Hinge_and_Creak" ID="{629A47C9-1828-4998-9CF9-AEE2FE2C911C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Door_03_Extra_Creak" ID="{CB3DB324-EFC5-4059-8F9B-A5A5CE1791CB}" ShortID="623442781" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_03_Extra_Creak" ID="{CA192289-FCB4-4FFE-82B9-29ACA6C681D9}" ShortID="259311039">
-											<Language>SFX</Language>
-											<AudioFile>Sounds\Door\Door_03_Extra_Creak.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_03_Extra_Creak" ID="{CA192289-FCB4-4FFE-82B9-29ACA6C681D9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Door_04_Creak_and_Thud" ID="{D75D4D5D-6F9B-47F7-89C8-4DE25795C1EB}" ShortID="492829811" Type="SoundFX">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Door_04_Creak_and_Thud" ID="{3AFF2D33-19CB-4FF5-8861-5DEC12282F07}" ShortID="18118532">
-											<Language>SFX</Language>
-											<AudioFile>Sounds\Door\Door_04_Creak_and_Thud.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Door_04_Creak_and_Thud" ID="{3AFF2D33-19CB-4FF5-8861-5DEC12282F07}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Door_05_Unlock1" ID="{83084DB6-185C-473A-B249-96FC753A2DBC}" ShortID="1031938689" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -601,6 +547,154 @@
 										<ActiveSource Name="Door_07_Unlock2" ID="{AFBF39D1-86B1-46F6-B0AE-3481091F7F9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="DoorSounds" ID="{5AB9C454-44FA-45D4-B27D-DCE91A86BAA0}" ShortID="110494998">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Door_01_Creak" ID="{327E4D30-752B-4A3F-9BD2-8154FA1E5C28}" ShortID="931529849" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2FF676FB-4A93-4FD7-83BE-E09BDF46B523}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Door_01_Creak" ID="{BD4D0245-9F07-4647-A1F6-77DF6BDF0E0A}" ShortID="647378029">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\Door\Door_01_Creak.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Door_01_Creak" ID="{BD4D0245-9F07-4647-A1F6-77DF6BDF0E0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Door_03_Extra_Creak" ID="{CB3DB324-EFC5-4059-8F9B-A5A5CE1791CB}" ShortID="623442781" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6198E8C5-B9ED-4F50-9ADF-DDBD3C5DFA85}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Door_03_Extra_Creak" ID="{CA192289-FCB4-4FFE-82B9-29ACA6C681D9}" ShortID="259311039">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\Door\Door_03_Extra_Creak.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Door_03_Extra_Creak" ID="{CA192289-FCB4-4FFE-82B9-29ACA6C681D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Door_04_Creak_and_Thud" ID="{D75D4D5D-6F9B-47F7-89C8-4DE25795C1EB}" ShortID="492829811" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DA6A4151-6AAC-4626-A4D8-5497BF2508E1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Door_04_Creak_and_Thud" ID="{3AFF2D33-19CB-4FF5-8861-5DEC12282F07}" ShortID="18118532">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\Door\Door_04_Creak_and_Thud.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Door_04_Creak_and_Thud" ID="{3AFF2D33-19CB-4FF5-8861-5DEC12282F07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Door_02_Hinge_and_Creak" ID="{D661B3CC-EB0E-4F85-91D8-97E181EE15CB}" ShortID="589211381" Type="SoundFX">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C31CCC77-F185-424C-8183-03B263956189}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Door_02_Hinge_and_Creak" ID="{629A47C9-1828-4998-9CF9-AEE2FE2C911C}" ShortID="624687065">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\Door\Door_02_Hinge_and_Creak.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Door_02_Hinge_and_Creak" ID="{629A47C9-1828-4998-9CF9-AEE2FE2C911C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Floor" ID="{C58160AC-89EF-4004-8760-DC06E5E32991}" ShortID="531804489">
@@ -1079,6 +1173,93 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Tape_03" ID="{B0B2E513-F613-4546-A326-AC8D39C9620A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Music" ID="{E3ABD3D5-DBC7-4686-8786-DECAE3EA7A05}" ShortID="1061529335">
+							<ChildrenList>
+								<Sound Name="CreepyLoop" ID="{EB3A94B9-7C3F-47F5-A747-AB641037DD7C}" ShortID="617858561" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CreepyLoop" ID="{442B3BFB-53AA-4141-B866-D48B4C8742F5}" ShortID="18027380">
+											<Language>SFX</Language>
+											<AudioFile>CreepyLoop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CreepyLoop" ID="{442B3BFB-53AA-4141-B866-D48B4C8742F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Stinger" ID="{4F52F56F-83BF-4DCE-8837-8F033290D983}" ShortID="893856399" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stinger" ID="{FFBC2792-B2FD-4C97-B3C5-68F7885D2E79}" ShortID="579218772">
+											<Language>SFX</Language>
+											<AudioFile>Stinger.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stinger" ID="{FFBC2792-B2FD-4C97-B3C5-68F7885D2E79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Monster" ID="{7FB1F4F9-B331-4D33-8EED-6159A0CA9DBD}" ShortID="883906317">
+							<ChildrenList>
+								<Sound Name="Pre-roar" ID="{B17A5DDF-6923-46C4-B9A6-AA6E62224CC6}" ShortID="756369129" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pre-roar" ID="{3B554A10-17D3-4611-A095-38B4EA41BEC5}" ShortID="18865271">
+											<Language>SFX</Language>
+											<AudioFile>Pre-roar.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pre-roar" ID="{3B554A10-17D3-4611-A095-38B4EA41BEC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Roar" ID="{00EABB53-A76F-4471-B092-E344D8B63DF1}" ShortID="1008909493" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roar" ID="{464B491C-5572-415D-B202-7206489CC04A}" ShortID="218556342">
+											<Language>SFX</Language>
+											<AudioFile>Roar.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roar" ID="{464B491C-5572-415D-B202-7206489CC04A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

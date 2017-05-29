@@ -97,8 +97,143 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Dog" ID="{6E4C21F7-BAAF-4788-889D-6C350768197E}" ShortID="558439400">
+							<ChildrenList>
+								<Event Name="PlayBarking" ID="{554D10CE-2DCB-4946-A12C-75924E9B43A9}">
+									<ChildrenList>
+										<Action Name="Play" ID="{070329F2-9A6F-491C-B381-4BEE211CEF14}" ShortID="49906213" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{FCAC9BF9-F666-4E8C-9C27-AED0DE2D3BFB}" Global="false">
+													<ObjectRef Name="DogBarking" ID="{6C12B7FA-E896-4D27-85D0-D883CC4D421E}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="StopBarking" ID="{0E4F247A-9EE1-4B9D-B0A1-CED895405343}">
+									<ChildrenList>
+										<Action Name="Stop" ID="{81CEF206-8DC8-4A22-8355-3309A7F0A2DB}" ShortID="394673554" Type="Stop" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{4EE52A1E-7C1B-4355-AA72-4DB1C4312488}" Global="false">
+													<ObjectRef Name="DogBarking" ID="{6C12B7FA-E896-4D27-85D0-D883CC4D421E}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+												</Element>
+											</ElementList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music Cues" ID="{5E9DD76C-3E67-4BAD-B85B-BD48776B985C}" ShortID="307266525">
+					<ChildrenList>
+						<Event Name="StartCreepyLoop" ID="{18A27151-6F21-4651-9FEE-43D9CA6BF487}">
+							<ChildrenList>
+								<Action Name="Play" ID="{F55B0695-CB87-4012-A716-95F473151E59}" ShortID="630606257" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B6053AB0-EEF9-4808-8B8F-F78E06D2FF42}" Global="false">
+											<ObjectRef Name="CreepyLoop" ID="{EB3A94B9-7C3F-47F5-A747-AB641037DD7C}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="FadeToStinger" ID="{8CD60771-4977-4CC1-AE6F-80B2E29D23D4}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{6FBEFE82-ECF9-4038-A4A5-E6CC32D1F580}" ShortID="848992753" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5FCC8A37-862D-4B2F-AE05-C5594365B2E4}" Global="false">
+											<ObjectRef Name="CreepyLoop" ID="{EB3A94B9-7C3F-47F5-A747-AB641037DD7C}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{44721D2F-179B-4D44-B836-6030F9FF80F9}" ShortID="188581420" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1A748C28-FDA6-4B98-8EE1-2AD874CF1625}" Global="false">
+											<ObjectRef Name="Stinger" ID="{4F52F56F-83BF-4DCE-8837-8F033290D983}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Monster" ID="{AAEC8031-79B3-45F5-8E29-771CE6F94039}" ShortID="810842717">
+					<ChildrenList>
+						<Event Name="Roar" ID="{899554B4-0F9D-4E8A-8BA8-BA6ACB3E0BA3}">
+							<ChildrenList>
+								<Action Name="Play" ID="{31E7909B-E79C-40F5-8D62-1908964F6A49}" ShortID="725833051" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{A2392AAE-D35D-40D6-AA79-44E19193D310}" Global="false">
+											<ObjectRef Name="Pre-roar" ID="{B17A5DDF-6923-46C4-B9A6-AA6E62224CC6}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{9C8EC1CA-12F2-4F98-97A6-95CCA9503163}" ShortID="1043115150" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1.85"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EE3DC085-B87B-4862-AF2B-B089DF0F477D}" Global="false">
+											<ObjectRef Name="Roar" ID="{00EABB53-A76F-4471-B092-E344D8B63DF1}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tapes" ID="{9D1BD429-1A4C-4421-A8DE-EABB4655B3F7}" ShortID="216397324">
+					<ChildrenList>
+						<Event Name="PlayTape1" ID="{E60341E1-5F21-4A62-B06B-EF9899C753C1}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7465BEA0-0213-4661-A6FA-F82D23C4D6E5}" ShortID="11199309" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{3D4A4FFB-F315-46E7-9F32-852FCD2445AA}" Global="false">
+											<ObjectRef Name="Tape_01" ID="{AF321384-2E7C-47AB-BCEA-4F2F42DEB4B9}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayTape2" ID="{0A2F26B4-D6D1-44CE-B479-54420239A357}">
+							<ChildrenList>
+								<Action Name="Play" ID="{64421129-D03E-479D-A95C-F487D8397CA1}" ShortID="8378858" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{3C04FBFF-42C1-4CD1-B7C5-872482F9651F}" Global="false">
+											<ObjectRef Name="Tape_02" ID="{9346147B-E38B-400D-80BA-DEEC957B4AC0}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayTape3" ID="{D4C4CDD8-1625-47D4-BB47-658ABF8244A0}">
+							<ChildrenList>
+								<Action Name="Play" ID="{09D6CC60-9A91-470B-9A0A-3613B3EB7D54}" ShortID="651281266" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{00ECBC66-1BB3-4152-BE20-AF72096A5BD8}" Global="false">
+											<ObjectRef Name="Tape_03" ID="{AFB4BC82-F4CA-47D9-9C50-93C3798FAA1D}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Door" ID="{3B126111-3466-48F5-A35F-659FB00F542F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{32157D2D-8B48-4E2B-B02B-D341D5701944}" ShortID="35474475" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8257D981-668A-4E8F-A391-FA666BFAA7BA}" Global="false">
+									<ObjectRef Name="DoorSounds" ID="{5AB9C454-44FA-45D4-B27D-DCE91A86BAA0}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
