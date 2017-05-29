@@ -11,30 +11,56 @@ public class PickUp : MonoBehaviour {
     public string stop;
     public Text text;
 
+    public string doorToUnlock;
+
+    public float tapeLength;
+    private bool isPlaying;
+    private float timer;
+
+    private void Start()
+    {
+        timer = tapeLength;
+    }
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && pickUp)
+        if (!isPlaying)
         {
-            foreach (GameObject dependent in dependencies)
+            if (Input.GetKeyDown(KeyCode.E) && pickUp)
             {
-                if (dependent != null)
-                    return;
+                foreach (GameObject dependent in dependencies)
+                {
+                    if (dependent != null)
+                        return;
 
+                }
+                if (play != "")
+                {
+                    AkSoundEngine.PostEvent(play, this.gameObject);
+                    isPlaying = true;
+                }
+                if (stop != "")
+                {
+                    AkSoundEngine.PostEvent(stop, this.gameObject);
+                }
+                text.enabled = false;
+                //temp
+                if (gameObject.name == "Sphere")
+                {
+                    text.text = "You win! Press Q to quit.";
+                    text.enabled = true;
+                }
             }
-            if (play != "")
-                AkSoundEngine.PostEvent(play, this.gameObject);
-            if (stop != "")
+        }
+        else if (isPlaying)
+        {
+            if (timer <= 0.0f)
             {
-                AkSoundEngine.PostEvent(stop, this.gameObject);
+                if (doorToUnlock != "")
+                    GameObject.Find(doorToUnlock).GetComponent<DoorOpener>().setLockStatus(false);
+                Destroy(this.gameObject);
             }
-            text.enabled = false;
-            //temp
-            if (gameObject.name == "Sphere")
-            {
-                text.text = "You win! Press Q to quit.";
-                text.enabled = true;
-            }
-            Destroy(this.gameObject);
+            timer -= Time.deltaTime;
         }
     }
 

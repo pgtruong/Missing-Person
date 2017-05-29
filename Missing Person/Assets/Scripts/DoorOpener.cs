@@ -12,6 +12,11 @@ public class DoorOpener : MonoBehaviour {
     /// </summary>
     [SerializeField] private bool isOpen = false;
 
+    /// <summary>
+    /// Bool that represents if the door is locked or not.
+    /// </summary>
+    [SerializeField] public bool isLocked;
+
     public bool IsDoorOpen
     {
         get { return this.isOpen; }
@@ -32,7 +37,7 @@ public class DoorOpener : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerCanOpen)
+        if (Input.GetKeyDown(KeyCode.E) && playerCanOpen && !isLocked)
         {
             if (isOpen)
             {
@@ -45,8 +50,14 @@ public class DoorOpener : MonoBehaviour {
                 isOpen = true;
                 StopAllCoroutines();
                 StartCoroutine(rotateDoor(rotation));
-            }            
+            }
+            AkSoundEngine.PostEvent("Door", gameObject);
         }
+        else if (Input.GetKeyDown(KeyCode.E) && playerCanOpen && isLocked)
+        {
+            AkSoundEngine.PostEvent("LockedDoor", gameObject);
+        }
+        
     }
 
     void OnTriggerEnter(Collider other)
@@ -58,7 +69,10 @@ public class DoorOpener : MonoBehaviour {
             if (isOpen)
                 text.text = "Press E to close door.";
             else
-                text.text = "Press E to open door.";
+            {
+                if (!isLocked) text.text = "Press E to open door.";
+                else text.text = "The door is locked.";
+            }
         }
     }
 
@@ -69,6 +83,15 @@ public class DoorOpener : MonoBehaviour {
             playerCanOpen = false;
             text.enabled = false;
         }
+    }
+
+    /// <summary>
+    /// Sets whether or not the door is locked.
+    /// </summary>
+    /// <param name="lockStatus">Set to true to lock the door, set to false to unlock it.</param>
+    public void setLockStatus(bool lockStatus)
+    {
+        isLocked = lockStatus;
     }
 
     /// <summary>

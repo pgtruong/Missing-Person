@@ -234,6 +234,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LockedDoor" ID="{1E2F8323-C8EF-4053-B53D-C4565DED19F6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{10A33AAD-82D0-4B75-9316-1B93C1C3DAFD}" ShortID="1015245823" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{09BF63C4-C926-4376-8192-61C3F70E3A3F}" Global="false">
+									<ObjectRef Name="LockedDoor" ID="{CA5338FD-46B6-475E-BB69-431DEB174268}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

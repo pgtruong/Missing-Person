@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{E9C3BCD6-0408-459F-97FF-FEE8F1952A01}">
 					<ObjectInclusionList>
+						<ObjectRef Name="LockedDoor" ID="{1E2F8323-C8EF-4053-B53D-C4565DED19F6}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartPiano" ID="{E6815CCC-3986-4061-927D-255C0B81218E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Footstep" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopRain" ID="{A8D09E69-763A-429B-9A9F-ECCD6AD1EB3E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
@@ -15,6 +16,7 @@
 						<ObjectRef Name="StopStatic" ID="{AF9CEAC9-781F-466D-8253-AD6F94C3B3D2}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayTape3" ID="{D4C4CDD8-1625-47D4-BB47-658ABF8244A0}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartRain" ID="{9709E87B-5C89-480D-A905-C9ACF593B8C1}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Door" ID="{3B126111-3466-48F5-A35F-659FB00F542F}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayBarking" ID="{554D10CE-2DCB-4946-A12C-75924E9B43A9}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayTape1" ID="{E60341E1-5F21-4A62-B06B-EF9899C753C1}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopBarking" ID="{0E4F247A-9EE1-4B9D-B0A1-CED895405343}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>

@@ -695,6 +695,65 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="LockedDoor" ID="{CA5338FD-46B6-475E-BB69-431DEB174268}" ShortID="842142327" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8FB8D23A-8F02-4865-99BE-CD39B00DC354}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{38BD0743-D7D4-4252-B6BE-3FB3B8963CF7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+															<Property Name="Min" Type="Real64" Value="-30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{788E26C9-93BF-4842-AC9C-509E8ECCFD42}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F249147-DF8A-401F-8C5F-AE16135B7C15}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EAE2E7C6-1D9E-4155-BAD0-0B3D708E8FBB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LockedDoor" ID="{F523C293-B84F-48B1-AB36-0504988E7B37}" ShortID="723033767">
+											<Language>SFX</Language>
+											<AudioFile>LockedDoor.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LockedDoor" ID="{F523C293-B84F-48B1-AB36-0504988E7B37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Floor" ID="{C58160AC-89EF-4004-8760-DC06E5E32991}" ShortID="531804489">
