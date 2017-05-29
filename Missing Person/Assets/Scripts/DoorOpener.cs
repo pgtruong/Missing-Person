@@ -27,7 +27,7 @@ public class DoorOpener : MonoBehaviour {
     void Start()
     {
         animator = GetComponent<Animator>();
-        DoorFrame = transform.FindChild("Door_Wood").gameObject;
+        DoorFrame = transform.Find("Door_Wood").gameObject;
     }   
 
     void Update()
