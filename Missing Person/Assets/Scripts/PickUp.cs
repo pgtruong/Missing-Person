@@ -13,6 +13,9 @@ public class PickUp : MonoBehaviour {
 
     public string doorToUnlock;
 
+    /// <summary>
+    /// The length of the tape (or at least how long you want to wait until the object destroys itself and unlocks the next door).
+    /// </summary>
     public float tapeLength;
     private bool isPlaying;
     private float timer;
@@ -36,6 +39,7 @@ public class PickUp : MonoBehaviour {
                 }
                 if (play != "")
                 {
+                    AkSoundEngine.PostEvent("LoadCassette", gameObject);
                     AkSoundEngine.PostEvent(play, this.gameObject);
                     isPlaying = true;
                 }
@@ -44,12 +48,6 @@ public class PickUp : MonoBehaviour {
                     AkSoundEngine.PostEvent(stop, this.gameObject);
                 }
                 text.enabled = false;
-                //temp
-                if (gameObject.name == "Sphere")
-                {
-                    text.text = "You win! Press Q to quit.";
-                    text.enabled = true;
-                }
             }
         }
         else if (isPlaying)

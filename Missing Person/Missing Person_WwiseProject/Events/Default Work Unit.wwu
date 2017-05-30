@@ -110,11 +110,11 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="StopBarking" ID="{0E4F247A-9EE1-4B9D-B0A1-CED895405343}">
+								<Event Name="StopDogBarking" ID="{0E4F247A-9EE1-4B9D-B0A1-CED895405343}">
 									<ChildrenList>
-										<Action Name="Stop" ID="{81CEF206-8DC8-4A22-8355-3309A7F0A2DB}" ShortID="394673554" Type="Stop" Scope="One" Global="false">
+										<Action Name="Stop" ID="{81CEF206-8DC8-4A22-8355-3309A7F0A2DB}" ShortID="394673554" Type="Stop" Scope="One" Global="true">
 											<ElementList>
-												<Element ID="{4EE52A1E-7C1B-4355-AA72-4DB1C4312488}" Global="false">
+												<Element ID="{4EE52A1E-7C1B-4355-AA72-4DB1C4312488}" Global="true">
 													<ObjectRef Name="DogBarking" ID="{6C12B7FA-E896-4D27-85D0-D883CC4D421E}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
 												</Element>
 											</ElementList>
@@ -140,12 +140,12 @@
 						</Event>
 						<Event Name="FadeToStinger" ID="{8CD60771-4977-4CC1-AE6F-80B2E29D23D4}">
 							<ChildrenList>
-								<Action Name="Stop" ID="{6FBEFE82-ECF9-4038-A4A5-E6CC32D1F580}" ShortID="848992753" Type="Stop" Scope="One" Global="false">
+								<Action Name="Stop" ID="{6FBEFE82-ECF9-4038-A4A5-E6CC32D1F580}" ShortID="848992753" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
 										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 									</PropertyList>
 									<ElementList>
-										<Element ID="{5FCC8A37-862D-4B2F-AE05-C5594365B2E4}" Global="false">
+										<Element ID="{5FCC8A37-862D-4B2F-AE05-C5594365B2E4}" Global="true">
 											<ObjectRef Name="CreepyLoop" ID="{EB3A94B9-7C3F-47F5-A747-AB641037DD7C}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
 										</Element>
 									</ElementList>
@@ -165,20 +165,21 @@
 					<ChildrenList>
 						<Event Name="Roar" ID="{899554B4-0F9D-4E8A-8BA8-BA6ACB3E0BA3}">
 							<ChildrenList>
-								<Action Name="Play" ID="{31E7909B-E79C-40F5-8D62-1908964F6A49}" ShortID="725833051" Type="Play" Scope="One" Global="false">
-									<ElementList>
-										<Element ID="{A2392AAE-D35D-40D6-AA79-44E19193D310}" Global="false">
-											<ObjectRef Name="Pre-roar" ID="{B17A5DDF-6923-46C4-B9A6-AA6E62224CC6}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
-										</Element>
-									</ElementList>
-								</Action>
 								<Action Name="Play" ID="{9C8EC1CA-12F2-4F98-97A6-95CCA9503163}" ShortID="1043115150" Type="Play" Scope="One" Global="false">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="1.85"/>
-									</PropertyList>
 									<ElementList>
 										<Element ID="{EE3DC085-B87B-4862-AF2B-B089DF0F477D}" Global="false">
 											<ObjectRef Name="Roar" ID="{00EABB53-A76F-4471-B092-E344D8B63DF1}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PreRoar" ID="{E4AB946B-549C-4B80-B22C-33611D457F97}">
+							<ChildrenList>
+								<Action Name="Play" ID="{8A6F8E05-4169-4C8E-9F98-61851C2451A5}" ShortID="974037859" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{0D2648AB-0DE6-4B9A-BC5B-ED4912FD491C}" Global="false">
+											<ObjectRef Name="Pre-roar" ID="{B17A5DDF-6923-46C4-B9A6-AA6E62224CC6}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -243,6 +244,26 @@
 								</Element>
 							</ElementList>
 						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Devices" ID="{675FE1A2-5FC8-4265-864C-87DE577D3AB2}" ShortID="487609840">
+					<ChildrenList>
+						<Event Name="LoadCassette" ID="{55C0DFF3-FF37-4780-B055-60F5EB695489}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7D0D2BF9-3406-48C9-90C4-8DAB88531759}" ShortID="436331345" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{600A6BFF-9055-45AA-B0AC-CAE9CC5C50C2}" Global="false">
+											<ObjectRef Name="Recorder_03_Insert_Cassette" ID="{633D0BCA-6998-4508-B6AF-F085B1BD9D8B}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop_All" ID="{B5724946-62BE-4045-931B-A34F8482366A}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{05C3A806-31AD-4FE1-A3F0-D52D84898182}" ShortID="314342464" Type="Stop" Scope="All" Global="true"/>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
