@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Footstep" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}">
+				<Event Name="Grass" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}">
 					<ChildrenList>
 						<Action Name="Play" ID="{FE333100-6092-4696-95CD-014C34BFA3CF}" ShortID="94165002" Type="Play" Scope="One" Global="false">
 							<ElementList>
@@ -47,7 +47,7 @@
 								<Action Name="Play" ID="{B9344BE5-5F55-449A-8FC2-3FFAC1365FDF}" ShortID="1025469803" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{25FB6F1F-D3DF-4BCB-9C31-CC236C6E2DBA}" Global="false">
-											<ObjectRef Name="CreepyPiano" ID="{56155A7C-6E28-4E19-9CD2-4E0F126C8371}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+											<ObjectRef Name="NewCreepyPiano" ID="{EB88DD67-7D36-45A8-9B86-FC8D0DF0FF7F}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -58,7 +58,18 @@
 								<Action Name="Stop" ID="{739CEC78-F543-4230-BA41-A9A00081FDD1}" ShortID="664713370" Type="Stop" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{54939817-16A3-4041-8395-65A970412D1E}" Global="true">
-											<ObjectRef Name="CreepyPiano" ID="{56155A7C-6E28-4E19-9CD2-4E0F126C8371}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+											<ObjectRef Name="NewCreepyPiano" ID="{EB88DD67-7D36-45A8-9B86-FC8D0DF0FF7F}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndPiano" ID="{29420980-980E-4FF5-A865-DEA6C2D88C6A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{CB906210-C951-4A90-961B-945583A83DD5}" ShortID="311052457" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{7483A617-3F96-4430-BD47-251CC5F60610}" Global="false">
+											<ObjectRef Name="NewCreepyPianoEnd" ID="{E20875CF-B7F0-48F9-A0D5-805E6BCC547F}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -123,6 +134,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Lightning" ID="{1BA51463-6732-4273-BFFE-BF517C7D6C1A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{CB7E198E-E538-4F92-AD7A-73E42849BA25}" ShortID="614203794" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{02B14704-E872-457C-B50E-AFFD135773F5}" Global="false">
+											<ObjectRef Name="Lightning_01_High" ID="{998AABF4-0311-4E7B-B306-37122B11F5E0}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music Cues" ID="{5E9DD76C-3E67-4BAD-B85B-BD48776B985C}" ShortID="307266525">
@@ -264,6 +286,39 @@
 				<Event Name="Stop_All" ID="{B5724946-62BE-4045-931B-A34F8482366A}">
 					<ChildrenList>
 						<Action Name="Stop All" ID="{05C3A806-31AD-4FE1-A3F0-D52D84898182}" ShortID="314342464" Type="Stop" Scope="All" Global="true"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="House" ID="{E5A8F850-3F65-40DC-AF01-22E50D9DFA4D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F733E2A7-C8B5-491C-918E-C8386426D8C7}" ShortID="935285204" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F10E7C57-5B3C-43E3-BC9F-E9729312239B}" Global="false">
+									<ObjectRef Name="Footsteps_House" ID="{CDD81E81-624D-47D8-88F0-E645C6E10A21}" WorkUnitID="{02289D6F-D07C-4320-B87B-02B633229F1C}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Blood" ID="{C0CC4B42-4469-4E96-B468-C1CD1303C80F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E05FA98A-34DA-4CC2-BD38-67C33B2FC1AB}" ShortID="689867438" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EBFC9A29-2567-4DF2-B5D9-221634539EE6}" Global="false">
+									<ObjectRef Name="Footsteps_Blood" ID="{C2799D79-56B5-40B8-9F5C-C42C229B91A5}" WorkUnitID="{02289D6F-D07C-4320-B87B-02B633229F1C}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AmbientTumble" ID="{7EA01B83-A1AB-4156-AD95-2DA80AE91623}">
+					<ChildrenList>
+						<Action Name="Play" ID="{875125E4-5DD1-43AB-930F-C9E2598B9E90}" ShortID="187311596" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E6B35EAF-BBB8-4F2C-BA12-1A3F5B88868C}" Global="false">
+									<ObjectRef Name="Footsteps_04_Down_Stairs_Clomp" ID="{FDC6EE03-3EC7-4B5C-B3DB-E522EFED0263}" WorkUnitID="{B6904B62-419B-4BA1-8C06-6A7A50BBCD1A}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
