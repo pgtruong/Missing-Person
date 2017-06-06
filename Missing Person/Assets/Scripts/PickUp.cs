@@ -10,7 +10,7 @@ public class PickUp : MonoBehaviour {
     public string play;
     public string stop;
     public Text text;
-
+    
     public string doorToUnlock;
 
     /// <summary>
@@ -31,6 +31,10 @@ public class PickUp : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.E) && pickUp)
             {
+                if (gameObject.name == "the cassette in the piano.")
+                {
+                    GameObject.Find("JackInTheBox").GetComponent<CreepyJack>().enabled = true;
+                }
                 foreach (GameObject dependent in dependencies)
                 {
                     if (dependent != null)

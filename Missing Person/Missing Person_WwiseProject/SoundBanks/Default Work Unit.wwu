@@ -8,7 +8,10 @@
 						<ObjectRef Name="Stop_All" ID="{B5724946-62BE-4045-931B-A34F8482366A}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LockedDoor" ID="{1E2F8323-C8EF-4053-B53D-C4565DED19F6}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StartPiano" ID="{E6815CCC-3986-4061-927D-255C0B81218E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Footstep" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="House" ID="{E5A8F850-3F65-40DC-AF01-22E50D9DFA4D}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AmbientTumble" ID="{7EA01B83-A1AB-4156-AD95-2DA80AE91623}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Grass" ID="{26625690-E2D2-41A1-9A2E-3E511A0AF8F8}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Lightning" ID="{1BA51463-6732-4273-BFFE-BF517C7D6C1A}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopRain" ID="{A8D09E69-763A-429B-9A9F-ECCD6AD1EB3E}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="StopPiano" ID="{BF165649-0A7C-42A0-8B9B-B2C9B3E19923}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayTape2" ID="{0A2F26B4-D6D1-44CE-B479-54420239A357}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
@@ -25,6 +28,8 @@
 						<ObjectRef Name="StopDogBarking" ID="{0E4F247A-9EE1-4B9D-B0A1-CED895405343}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FadeToStinger" ID="{8CD60771-4977-4CC1-AE6F-80B2E29D23D4}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Roar" ID="{899554B4-0F9D-4E8A-8BA8-BA6ACB3E0BA3}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blood" ID="{C0CC4B42-4469-4E96-B468-C1CD1303C80F}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EndPiano" ID="{29420980-980E-4FF5-A865-DEA6C2D88C6A}" WorkUnitID="{53A5D7AC-D7A1-402A-B92F-D13808F2BECC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

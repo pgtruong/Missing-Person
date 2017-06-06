@@ -13,9 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENTTUMBLE = 3376249082U;
+        static const AkUniqueID BLOOD = 3934470635U;
         static const AkUniqueID DOOR = 1877847629U;
+        static const AkUniqueID ENDPIANO = 1655073147U;
         static const AkUniqueID FADETOSTINGER = 2783095374U;
-        static const AkUniqueID FOOTSTEP = 1866025847U;
+        static const AkUniqueID GRASS = 4248645337U;
+        static const AkUniqueID HOUSE = 3720479411U;
+        static const AkUniqueID LIGHTNING = 3334464137U;
         static const AkUniqueID LOADCASSETTE = 276254437U;
         static const AkUniqueID LOCKEDDOOR = 37744199U;
         static const AkUniqueID PLAYBARKING = 1127813999U;
