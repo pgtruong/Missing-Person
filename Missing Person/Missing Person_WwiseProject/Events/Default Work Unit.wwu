@@ -90,17 +90,28 @@
 												</Element>
 											</ElementList>
 										</Action>
+										<Action Name="Stop" ID="{AB53BECA-2FC2-4B1E-A1F4-6ED9AAD97FFC}" ShortID="638213953" Type="Stop" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{0A5EC905-1050-4364-A80C-7B89E777E474}" Global="false">
+													<ObjectRef Name="RainLowPass" ID="{CAEE6680-C6EC-47CE-87F3-F72887A5F174}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+												</Element>
+											</ElementList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="StopRain" ID="{A8D09E69-763A-429B-9A9F-ECCD6AD1EB3E}">
 									<ChildrenList>
-										<Action Name="Stop" ID="{3A5306A7-0227-41EC-95C0-946D32238DB3}" ShortID="937356722" Type="Stop" Scope="One" Global="false">
-											<PropertyList>
-												<Property Name="FadeTime" Type="Real64" Value="3"/>
-											</PropertyList>
+										<Action Name="Stop" ID="{912AC789-F769-4AF7-B819-F653D27F8FF0}" ShortID="787417645" Type="Stop" Scope="One" Global="false">
 											<ElementList>
-												<Element ID="{236D0DBF-0837-428F-842F-4211D66CA72B}" Global="false">
+												<Element ID="{D851E0BB-098B-483E-A79E-6F6B415DE10C}" Global="false">
 													<ObjectRef Name="Rain" ID="{17BB542C-110D-4C3F-8E53-96F218B52EF2}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
+												</Element>
+											</ElementList>
+										</Action>
+										<Action Name="Play" ID="{49EE27EB-9E2E-42D0-9C4C-3D37F1DD3895}" ShortID="121691360" Type="Play" Scope="One" Global="false">
+											<ElementList>
+												<Element ID="{757EDBD3-925F-4DED-8CC4-C931B76A5F94}" Global="false">
+													<ObjectRef Name="RainLowPass" ID="{CAEE6680-C6EC-47CE-87F3-F72887A5F174}" WorkUnitID="{F13D40D9-9E22-4A63-A1B4-4821CFD5F8A9}"/>
 												</Element>
 											</ElementList>
 										</Action>
